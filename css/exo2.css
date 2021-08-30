@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body{
+    background-color: #f6f6f6;
+    color: black;
+}
+ 
+header{
+    background-color: black;
+}
+
+header nav{
+    margin:0 auto;
+    max-width: 1150px;
+}
+
+header nav ul{
+    list-style:none;
+    font-size: 0;
+    text-align: right;
+}
+
+header nav ul li{
+    font-size: 16px;
+    display: inline-block;
+}
+
+header nav a{
+    padding: 15px 30px;
+    display: block;
+}
+
+nav div img{
+    width: 50%;
+    background-color: orange;
+}
+
+.LogoChat{
+    float:left;
+    width: 187px;
+}
+
+a:hover{
+    background-color: white;
+    color: black;
+}
+
+h1{
+    text-align: center;
+    justify-content: center;
+    position: relative;
+}
+
+h1:before{
+    content: "";
+    position: absolute;
+    height: 2px;
+    width: 30%;
+    top:50%;
+    right: 0%;
+    background-color: black;
+}
+
+h1:after{
+    content: "";
+    position: absolute;
+    height: 2px;
+    width: 30%;
+    top:50%;
+    left: 0%;
+    background-color: black;
+}
+
+main{
+    max-width: 1150px;
+    margin: auto;
+}
+
+main .justeLeTexte{
+    text-align: justify;
+}
+
+header{
+    padding: 10px 0;
+}
+
+h1,h2{
+    margin: 20px 0;
+}
+
+h1{
+    text-align: center;
+    justify-content: center;
+    position: relative;
+}
+
+main{
+    max-width: 1150px;
+    margin: auto;
+}
+
+main .text{
+    text-align: justify;
+}
+
+main img{
+    width: 300px;
+}
+
+.imageFlottanteDroite {
+    float: right;
+    margin:10px;
+}
+.imageFlottanteGauche {
+    float: left;
+    margin:10px;
+}
+
+nav {
+    background-color: black;
+    color: #f6f6f6;
+}
+
+ul{
+    font-size: 0;
+    max-width: 1150px;
+    margin: 0 auto;
+    background-color: black;
+    text-align: right;
+}
+
+li a{
+    padding: 12px 45px;
+    color: white;
+    display:block;
+}
+
+ul li{
+    font-size: 16px;
+    list-style: none;
+    display: inline-block;
+}
+
+
+.inline-blocks-container{
+    display: inline-block;
+}
+
+

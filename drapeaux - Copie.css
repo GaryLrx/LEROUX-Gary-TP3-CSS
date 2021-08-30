@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.flag{
+    position: relative;
+    height:125px;
+    width:250px;
+    border: 1px solid;
+}
+
+.flag:nth-of-type(1){background-color: white;}
+
+.flag:nth-of-type(1):before{
+    content:"";
+    background-color: blue;
+    position: absolute;
+    width: 33.3333%;
+    left:0;
+    top:0;
+    bottom:0;
+}
+.flag:nth-of-type(1):after{
+    content:"";
+    background-color: red;
+    position: absolute;
+    width: 33.3333%;
+    right:0;
+    top:0;
+    bottom:0;
+}
+
+.flag:nth-of-type(2){background-color: red;}
+
+.flag:nth-of-type(2):before{
+    content:"";
+    background-color: black;
+    position: absolute;
+    height: 33.3333%;
+    width: 100%;
+    left:0;
+    top:0;
+}
+
+    .flag:nth-of-type(2):after{
+    content:"";
+    background-color: yellow;
+    position: absolute;
+    height: 33.3333%;
+    width: 100%;
+    left:0;
+    bottom:0;
+    }
+
+.flag:nth-of-type(3){background-color: white;}
+
+.flag:nth-of-type(3):before{
+    content:"";
+    position: absolute;
+    background-color:red;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    right: 80px;
+    bottom:15px
+    }
+
+.flag:nth-of-type(4){background-color: red;}
+    
+.flag:nth-of-type(4):before{
+    content:"";
+    position: absolute;
+    background-color:white;
+    width: 100px;
+    height: 30px;
+    left: 65px;
+    top:48px;
+     }
+
+.flag:nth-of-type(4):after{
+    content:"";
+    position: absolute;
+    background-color: white;
+    width: 30px;
+    height: 95px;
+    left: 100px;
+    bottom:15px
+    }
+
+.flag:nth-of-type(5){
+    
+    background: rgb(255,0,0);
+    background: linear-gradient(90deg, rgba(255,0,0,1) 0%, rgba(255,0,0,1) 20%, rgba(255,255,255,1) 20%, rgba(255,255,255,1) 25%, rgba(0,8,120,1) 25%, rgba(0,8,120,1) 30%, rgba(255,255,255,1) 30%, rgba(255,255,255,1) 35%, rgba(255,0,0,1) 35%); 
+    position: relative;
+    
+    }
+.flag:nth-of-type(5):before{
+    content: "";
+    background-color: darkblue;
+    border-top: 7px solid;
+    border-bottom: 7px solid;
+    border-color: white;
+    position: absolute;
+    height: 13px;
+    width: 62px;
+    top: 36%;
+    
+    }
+.flag:nth-of-type(5):after{
+    content: "";
+    position: absolute;
+    background-color: darkblue;
+    border-top: 7px solid;
+    border-bottom: 7px solid;
+    border-color: white;
+    left: 75px;
+    top: 36%;
+    height: 13px;
+    width: 175px;
+    }

@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body{background-color: #F6F6F6;}
+
+h1{
+    text-align: center;
+    font-size: 55px;
+    margin: 60px 0;
+}
+
+h2{
+    margin: 20px 0;
+    text-align: center;
+}
+
+h3{margin: 20px 0;}
+
+.exoUnContainer{
+    width: 500px;
+    height: 500px;
+    border: dotted 2px black;
+    position: relative;
+}
+
+.carre{
+    width: 50%;
+    height: 50%;
+    position: absolute;
+}
+
+.carreRouge{
+    background: red;
+    position: absolute;
+    right:0;
+}
+.carreJaune{
+    background: yellow;
+    position: absolute;
+    top:0;
+    left:0;
+}
+.carreBleu{
+    background: blue;
+    position: absolute;
+    right:0;
+    bottom:0;
+}
+.carreVert{
+    background: green;
+    position: absolute;
+    bottom:0;
+    left:0;
+}
+
+.carreViolet{
+    background: violet;
+    position:absolute;
+    top: 25%;
+    left: 25%;
+    z-index: 1;
+}
+
+
+
+/* FORMULAIRE */
+
+ form img{
+    width:50px;
+    position: absolute;
+    top:10px;
+    right:10px;
+    filter: brightness(500);
+}
+
+form{
+    max-width: 700px;
+    margin:0 auto;
+    background-color: #359E7B;
+    position: relative;
+    padding: 15px;
+}
+
+input, textarea{
+    width: 100%;
+    padding: 15px;
+    font-size: 20px;
+    box-sizing: border-box;
+    margin-top: 15px;
+    border-radius: 5px;
+    border:none;
+    max-width: 100%;
+    min-width: 100%;
+}
+
+textarea{
+    min-height: 250px;
+    min-height: 250px;
+}
+
+input[type="submit"]{
+    cursor:pointer;
+}
+
+input[type="submit"]:hover{
+    background-color:#56b495ad;
+    color: white;
+}
+
+.envoyez{
+    background-color: #F6F6F6;
+    border:0;
+    color:black;
+    width: 630px;
+    margin-top: 10px
+}
+
+.contactez{
+    color: #F6F6F6;
+    font-size: 35px;
+    margin-top:20px;
+    width: 500px;
+}
+
